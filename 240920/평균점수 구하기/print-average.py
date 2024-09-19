@@ -1,2 +1,2 @@
 avg = list(map(float, input().split()))
-print(sum(avg)/len(avg))
+print(round(sum(avg)/len(avg), 1))
