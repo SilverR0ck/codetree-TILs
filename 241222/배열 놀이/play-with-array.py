@@ -6,11 +6,12 @@ for i in range(q):
     if func[0] == 1:
         idx = func[1]-1
         print(l[idx])
+        
     elif func[0] == 2:
         if func[1] not in l:
             print("0")
         else:
-            l.index(func[1])
+            print(l.index(func[1])+1)
     else:
         for i in range(func[1]-1, func[2]):
             print(l[i], end=" ")
