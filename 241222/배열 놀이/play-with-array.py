@@ -15,4 +15,5 @@ for i in range(q):
     else:
         for k in range(func[1]-1, func[2], 1):
             print(l[k], end=' ')
+        print()
         
