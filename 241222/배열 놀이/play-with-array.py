@@ -13,6 +13,6 @@ for i in range(q):
         else:
             print(l.index(func[1])+1)
     else:
-        for i in range(func[1]-1, func[2]):
-            print(l[i], end=" ")
+        for k in range(func[1]-1, func[2], 1):
+            print(l[k], end=' ')
         
