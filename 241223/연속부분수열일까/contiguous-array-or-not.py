@@ -10,10 +10,14 @@ for i, char in enumerate(A):
     if char==B[0] and n2 <= n1-i:
         exist = 1
         for j in range(n2):
+            #print(A[i+j], "과", B[j])
             if A[i+j] != B[j]:
                 fail = 1
+            else:
+                fail = 0
         if fail == 0:
             print("Yes")
+            fail = 0
             break
 
 if fail == 1 or exist == 0:
