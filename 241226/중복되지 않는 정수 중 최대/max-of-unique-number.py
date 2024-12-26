@@ -7,6 +7,8 @@ for i in l:
         while i in l:
             l.remove(i)
 
-print(max(l))
-
+if l:
+    print(max(l))
+else:
+    print("-1")
 
