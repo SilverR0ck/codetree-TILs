@@ -1,14 +1,14 @@
 N = int(input())
 l = list(map(int, input().split()))
+x = []
 
-l.sort(reverse=True)
 for i in l:
-    if l.count(i)>1:
-        while i in l:
-            l.remove(i)
+    if l.count(i)==1:
+       x.append(i) 
+    
 
-if l:
-    print(l[0])
+if x:
+    print(max(x))
 else:
     print("-1")
 
