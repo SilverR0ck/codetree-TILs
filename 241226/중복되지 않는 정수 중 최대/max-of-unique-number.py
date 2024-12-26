@@ -8,7 +8,7 @@ for i in l:
             l.remove(i)
 
 if l:
-    print(max(l))
+    print(l[0])
 else:
     print("-1")
 
