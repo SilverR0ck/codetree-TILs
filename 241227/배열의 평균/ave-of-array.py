@@ -34,4 +34,4 @@ print()
 for i in r:
     print(i, end=' ')
 print()
-print(total_avg/8)
+print(round(total_avg/8, 1))
