@@ -1,5 +1,5 @@
 def func(n, m):
-    i=2
+    i=1
     arr = []
     while(1):
         if n%i==0 and m%i==0:
